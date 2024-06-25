@@ -6,11 +6,10 @@ public class binarySearch {
 
 	private static int binarySearch(int[] array, int x) {
 		int left = 0; // lấy vị trí đầu
-		int right = array.length; // lấy vị trí cuối
+		int right = array.length - 1; // lấy vị trí cuối
 
 		while (left <= right) { // kiểm tra điều kiện xem vị trí đầu nhỏ hơn vị trí cuối thì thực hiện tiếp
-			int middle = (left + right) / 2;  // lấy vị trí giữa mảng
-			
+			int middle =  left + (right - left) / 2;  // lấy vị trí giữa mảng
 			if(array[middle] == x) { // kiểm tra giá trị của mảng tại vị trí middle, nếu trùng với kết quả nhập vào x
 				return middle;  // thì trả về vị trí của middle
 			}
