@@ -2,6 +2,8 @@ package search;
 
 import java.util.Scanner;
 
+
+// Thuật Toán Tìm Kiếm Nhị Phân 
 public class binarySearch {
 
 	private static int binarySearch(int[] array, int x) {

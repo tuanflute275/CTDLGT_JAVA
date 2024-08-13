@@ -2,7 +2,7 @@ package search;
 
 import java.util.Scanner;
 
-// tìm kiếm tuần tự
+// Thuật Toán Tìm Kiếm Tuần Tự
 public class linearSearch {
 
 	// nhận vào 1 mảng và 1 giá trị tìm kiếm

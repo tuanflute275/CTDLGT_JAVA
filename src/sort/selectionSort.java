@@ -1,5 +1,6 @@
 package sort;
 
+// Thuật Toán Sắp Xếp Chọn
 public class selectionSort {
 	public static void selectionSort(int[] array) {
 		// Vòng lặp ngoài bắt đầu từ chỉ số 0 và chạy tới array.length - 1.

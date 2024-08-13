@@ -1,7 +1,6 @@
 package sort;
 
-import java.util.Iterator;
-
+// Thuật Toán Sắp Xếp Nổi Bọt 
 public class bubbleSort {
 	private static void bubbleSort(int[] array) {
 		for (int i = 0; i < array.length - 1; i++) { // Vòng lặp này duyệt qua các phần tử của mảng, trừ đi 1 để tránh lặp lại khi chỉ còn một phần tử cuối cùng.

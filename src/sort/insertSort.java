@@ -1,5 +1,6 @@
 package sort;
 
+// Thuật Toán Sắp Xếp Chèn
 public class insertSort {
 
 	private static void insertSort(int[] array) {

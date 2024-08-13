@@ -2,6 +2,7 @@ package search;
 
 import java.util.Scanner;
 
+// Thuật Toán Tìm Kiếm Nhảy 
 public class jumpSearch {
 
 	private static int jumpSearch(int[] array, int x) {
