@@ -60,6 +60,6 @@ public class demo {
 		n1 = addToHead(n1, 0);
 		n1 = addToTail(n1, 4);
 		printLinkedList(n1);
-		System.out.println("done");
+		System.out.println("donee");
 	}
 }
