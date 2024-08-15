@@ -21,7 +21,7 @@ public class binarySearch {
 			}
 			
 			if(array[middle] > x) { // kiểm tra nếu giá trị tại vị trí middle mà lớn hơn giá trị x
-				right = middle + 1; // thì gán lại cho right = giá trị middle - 1
+				right = middle - 1; // thì gán lại cho right = giá trị middle - 1
 			}
 		}
 		return -1;
